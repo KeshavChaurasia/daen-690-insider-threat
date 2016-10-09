@@ -1,4 +1,3 @@
-daen-690-insider-threat
 The following is from the readme file provided in the Software Engineering Institute of Carnegie Mellon University's insider threat dataset which can be found here (https://www.cert.org/insider-threat/tools/index.cfm)
 
 license.txt
