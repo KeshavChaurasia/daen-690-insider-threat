@@ -1,0 +1,8 @@
+library(data.table)
+library(plyr)
+mydat <- fread('https://s3.amazonaws.com/daen-690-insider-threat/r1/http.csv')
+mydat <- rbind(mydat,mydat[1])
+names(mydat) <- c('id','date_stamp','user','pc','url')
+url_counts <- aggregate(id ~ url, data = mydat, FUN = length)
+url_counts <- sample_n(url_counts, 500, replace=TRUE)
+names(url_counts) <- c("url", "count")
