@@ -7,4 +7,11 @@ library(dplyr)
 library(timeDate)
 device_df <- fread('https://s3.amazonaws.com/daen-690-insider-threat/r1/device.csv')
 
-activities <- unique(device_df$activity)
+device_df$date <- as.POSIXct(strptime(device_df$date, "%m/%d/%Y %H:%M:%S"))
+
+options(scipen=10)
+
+hist(device_df$date, breaks="month", freq=TRUE,
+     main="Distribution",
+     col="slateblue1", xlab="",
+     format="%b %Y", las=2)
