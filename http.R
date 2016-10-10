@@ -28,3 +28,9 @@ user_url_counts <- sample_n(user_url_counts, 500, replace=TRUE)
 head(user_url_counts,15)
 #to filter dataframe between two time periods, use the following structure
 #mydat[(mydat$date_stamp>"2010-01-04 17:00:00 EST")&(mydat$date_stamp<"2010-01-04 23:59:59 EST")]
+mydat$hour <- cut(mydat$date_stamp, breaks = "hour")
+hour_counts <- aggregate(id ~ hour, data = mydat, FUN = length)
+names(hour_counts) <- c("hour", "count_values")
+ggplot(hour_counts, aes(hour_counts$hour, hour_counts$count_values)) + 
+  geom_bar(stat = "identity")
+
