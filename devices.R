@@ -1,0 +1,10 @@
+library(data.table)
+library(plyr)
+library(ggplot2)
+library(ggthemes)
+library(scales)
+library(dplyr)
+library(timeDate)
+device_df <- fread('https://s3.amazonaws.com/daen-690-insider-threat/r1/device.csv')
+
+activities <- unique(device_df$activity)
