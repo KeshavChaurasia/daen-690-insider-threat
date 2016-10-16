@@ -1,3 +1,43 @@
+
+|                Sprint                |                     Presentation                    |
+|:------------------------------------:|:---------------------------------------------------:|
+| Problem Definition and Project Plans |                       Sept 28                       |
+|               Data Sets              |           Oct 5 (plan) / Oct 12 (results)           |
+|        Analytics / Algorithms        | Oct 12 (plan) / Oct 26 (progress) / Nov 2 (results) |
+|            Visualizations            | Oct 26 (plan) / Nov 9 (progress) / Nov 16 (results) |
+|          Final Presentations         |       Nov 30 (outline prep) / Dec 14 (Judging)      |
+
+Problem Definition and Project Plans
+* Problem (decision) defined
+* Understanding of complexity
+* Potential data source identified
+* Potential analytics identified
+* Project schedule defined
+* Participant roles assigned
+* Risks identified and mitigation plan
+
+Data Sets
+* Data located and accessed
+* Initial processing underway
+* Risks identified and mitigated
+
+Analytics / Algorithms
+* Algorithms defined and coded
+* Initial applications completed
+* Risks identified and mitigated
+
+Visualizations
+* Visualization concepts defined
+* Visualization implemented
+* Risks identified and mitigated
+
+Final Presentations
+* Project components completed
+* Project components integrated
+* Project supports final decision
+* Presentation made
+
+
 The following is from the readme file provided in the Software Engineering Institute of Carnegie Mellon University's insider threat dataset which can be found here (https://www.cert.org/insider-threat/tools/index.cfm)
 
 license.txt
