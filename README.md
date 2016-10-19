@@ -87,3 +87,13 @@ We’ve worked to make the data realistic in certain, very specific ways, listed
 * Users either tend to use thumb drives or they don’t. But for thumb drive users, there is no significance or trend regarding their frequency of usage.
 * User behavior is not influenced by the day of the week.
 * Users never log in on weekends, and there is no awareness of holidays.
+
+R2 Logon:
+  count    2000.000000
+  mean      424.789500
+  std       260.334066
+  min         4.000000
+  25%       345.000000
+  50%       345.000000
+  75%       414.250000
+  max      2649.000000
